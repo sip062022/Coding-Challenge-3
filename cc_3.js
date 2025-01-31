@@ -30,3 +30,15 @@ employee.promotionEligible = true; // Adds properly that promotionEligible is tr
 
 console.log("Employee Performance Tracker:" ,employee); // Displays updated object
 
+// Task 4: Customer Feedback Records Scenario //
+
+let feedback = [   // Defines the feedback array
+    {customerName: "Mary", feedbackText: "Great!", rating: "5 Stars"}, // Defines the first object
+    {customerName: "Beth", feedbackText: "Awful!", rating: "1 Star"}, // Defines the second object
+    {customerName: "Claire", feedbackText: "Meh!", rating: "3 Stars"}  // Defines the third object
+];
+
+let newFeedback = {customerName: "Harry", feedbackText: "Pretty good!", rating: "4 Stars"}; // Defines the new object
+feedback.push(newFeedback); // Pushes new object into the array
+
+console.log("Customer Feedback Records:" , feedback); // Displays the compelted array
