@@ -13,3 +13,20 @@ let total = orders.reduce((sum, orders) => sum + orders, 0); // Adds quantities 
 
 console.log("Updated Orders Array:" , orders); // Displays the updated array
 console.log("Total Order:" , total); // Displays total sum of order quantities [20]
+
+// Task 3: Employee Performance Tracking Scenario //
+
+let employee = {  // Declares the employee object
+    name: "Joe",       // Declares name as "Joe"
+    role: "Director",   // Declares role as "Director"
+    performanceScore: 96,  // Declares performanceScore as 96
+    isActive: true  // Declares isActive as true
+};
+
+
+employee.performanceScore = 100; // Changes perforamceScore from a 96 to a 100
+
+employee.promotionEligible = true; // Adds properly that promotionEligible is true
+
+console.log("Employee Performance Tracker:" ,employee); // Displays updated object
+
