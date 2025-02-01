@@ -42,3 +42,17 @@ let newFeedback = {customerName: "Harry", feedbackText: "Pretty good!", rating: 
 feedback.push(newFeedback); // Pushes new object into the array
 
 console.log("Customer Feedback Records:" , feedback); // Displays the compelted array
+
+// Task 5: Inventory Management System Scenario //
+
+let inventory = {  // Defines the inventory object
+    itemName: "Cookie",  // Defines the itemName property
+    stockCount: 5,  // Defines the stockCount property
+    price: 7,  // Defines the price property
+    calculateTotalValue: function() {  // Defines the method calcaulateTotalValue
+        console.log("Total Value:" , this.stockCount * this.price);  // Defines the formula to be used
+    }
+};
+
+console.log("Inventory Details" , inventory); // Displays the object
+console.log(inventory.calculateTotalValue()); // Displays the method calculateTotalValue's result [35]
